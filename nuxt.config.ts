@@ -66,7 +66,7 @@ const config = {
     ['nuxt-facebook-pixel-module', {
       track: 'PageView',
       pixelId: '852229261558709',
-      disabled: false
+      disabled: true
     }],
     ['@netsells/nuxt-hotjar', { 
       id: '1470912', 
