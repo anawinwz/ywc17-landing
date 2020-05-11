@@ -45,6 +45,7 @@ const config = {
   */
   plugins: [
     { src: '~/plugins/ant-design-vue' },
+    { src: '~/plugins/vue-gtag', ssr: false },
     { src: '~/plugins/vue-agile', ssr: false },
     { src: '~/plugins/vue-lazyload', ssr: false },
     { src: '~/plugins/vue-confetti', ssr: false }
@@ -60,9 +61,6 @@ const config = {
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
-    ['@nuxtjs/google-gtag', {
-      id: 'UA-42284958-1'
-    }],
     ['nuxt-facebook-pixel-module', {
       track: 'PageView',
       pixelId: '852229261558709',
