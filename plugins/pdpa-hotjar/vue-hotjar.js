@@ -1,7 +1,7 @@
 import { Hotjar } from './hotjar'
 
 export default {
-  install(Vue, options) {
+  install (Vue, options) {
     const { id, snippetVersion = 6, enabled = false } = options
     if (!id) {
       console.error('Please specify Hotjar ID.')
