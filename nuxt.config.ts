@@ -46,6 +46,7 @@ const config = {
   plugins: [
     { src: '~/plugins/ant-design-vue' },
     { src: '~/plugins/vue-gtag', ssr: false },
+    { src: '~/plugins/pdpa-hotjar', ssr: false },
     { src: '~/plugins/vue-agile', ssr: false },
     { src: '~/plugins/vue-lazyload', ssr: false },
     { src: '~/plugins/vue-confetti', ssr: false }
@@ -65,10 +66,6 @@ const config = {
       track: 'PageView',
       pixelId: '852229261558709',
       disabled: true
-    }],
-    ['@netsells/nuxt-hotjar', { 
-      id: '1470912', 
-      sv: '6',
     }],
     ['vue-scrollto/nuxt', { duration: 600 }]
   ],

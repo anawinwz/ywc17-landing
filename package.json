@@ -13,7 +13,6 @@
     "lintfix": "eslint --fix --ext .js,.vue --ignore-path .gitignore ."
   },
   "dependencies": {
-    "@netsells/nuxt-hotjar": "^0.1.2",
     "@nuxtjs/axios": "^5.3.6",
     "ant-design-vue": "^1.4.1",
     "dayjs": "^1.8.15",
